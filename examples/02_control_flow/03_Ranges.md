@@ -47,9 +47,9 @@ fun main() {
 </div>
 
 1. Create range starting from 0 up to 3 (inclusive) and iterate over it
-2. You can define increment step for consecutive elements
+2. You can define an increment step for consecutive elements
 3. Char ranges can be created as well
-4. Increment step for char ranges are also valid
+4. Increment steps for char ranges are also valid
 5. To create a range in _reverse_ order use `downTo()` function
 6. Ranges are also useful in `if` statements
 7. `!in` is oposite of `in`. Statement is equal to `_false_`
