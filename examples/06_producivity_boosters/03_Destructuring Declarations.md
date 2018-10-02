@@ -27,9 +27,9 @@ fun main() {
 
 </div>
 
-1. Create a component on the left-hand side to match the arity of the right hand
-2. It can be used to iterate through maps. _name_ and _age_ variables are mapped to key and value now
-3. You can destructure built-in Pairs and Triples, even as return values from functions
+1. Create a component on the left-hand side to match the arity of the right-hand side.
+2. It can be used to iterate through maps. _name_ and _age_ variables are mapped to key and value now.
+3. You can destructure built-in Pairs and Triples, even as return values from functions.
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3">
 
@@ -52,7 +52,7 @@ fun main() {
 
 1. Define a data class that will be destructured later
 2. Values mapped to object fields
-3. Data class automatically defines the `component1()`, `component2()` corresponding methods, which will be called during destructuring
+3. The data class automatically defines the `component1()`, `component2()` corresponding methods, which will be called during destructuring
 4. Use _underscore_ if you don't need one of the values, avoiding the compiler hint indicating unused variable    
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3">
@@ -78,4 +78,4 @@ fun main() {
 </div>
 
 1. Define a custom `Pair` class with `component1()` and `component2()` methods
-2. Destructure instances of this class same as built-in `Pair`
+2. Destructure instances of this class are the same as the built-in `Pair`
