@@ -16,10 +16,10 @@ fun main() {
 
 </div>
 
-1. As most of programming languages(Java, C++ etc), Kotlin supports passing arguments to methods and constructors
-    according to their order of definition.
+1. Just like most programming languages(Java, C++ etc), Kotlin supports passing arguments to methods and constructors
+    according to the order of their definition.
 2. Kotlin also supports named arguments to allow clearer invocations and avoid
-    mistakes that otherwise would not be detected by the compiler (e.g.
+    mistakes that would otherwise not be detected by the compiler (e.g.,
     switching the correct order of the arguments and constructing an email in
     the form _gmail.com@username_).
 3. When invoking a method or constructor, named arguments do not have to
