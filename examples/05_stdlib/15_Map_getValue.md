@@ -1,8 +1,8 @@
 # Map element access
 
-`[]` operator returns value corresponding to the given key, or `null` if such a key is not present in the map  
+`[]` operator returns the value corresponding to the given key, or `null` if such a key is not present in the map  
 
-`getValue` function returns an existing value corresponding to the given key or throws an exception,
+ The `getValue` function returns an existing value corresponding to the given key or throws an exception,
  mentioning which key was not found.
  
 If the map was produced with withDefault, this function will return the default value instead of throwing an exception.
