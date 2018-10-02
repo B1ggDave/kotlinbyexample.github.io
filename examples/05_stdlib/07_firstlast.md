@@ -2,11 +2,11 @@
 
 ### `first`, `last`
 
-Those functions return either the first or last element of the collection or the first/last matching the given predicate.
+These functions return either the first or last element of the collection or the first/last matching the given predicate.
 
-In case of empty collection or if nothing matching the predicate those function throw an `NoSuchElementException`.
+If there is an empty collection or if nothing matching the predicate these functions throw a `NoSuchElementException`.
 
-Lets make some Kotlin!
+Let's make some Kotlin!
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3">
 
@@ -30,16 +30,16 @@ fun main() {
 
 </div>
 
-1. Define collection of numbers.
-2. Pick first element.
-3. Pick last element.
-4. Pick first even element.
-5. Pick last odd element.
+1. Define a collection of numbers.
+2. Pick the first element.
+3. Pick the last element.
+4. Pick the first even element.
+5. Pick the last odd element.
 
 
 ### `firstOrNull`, `lastOrNull`
 
-Behaviour is almost the same instead if nothing was found the null is returned.
+The behavior is almost the same, only instead if nothing was found then null is returned.
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3">
 
@@ -67,7 +67,7 @@ fun main() {
 
 </div>
 
-1. Define collection of different words.
+1. Define a collection of different words.
 2. Define an empty collection.
 3. Pick the first element from empty collection. It supposed to be `null`
 4. Pick the last element from empty collection. It supposed to be `null` as well.
