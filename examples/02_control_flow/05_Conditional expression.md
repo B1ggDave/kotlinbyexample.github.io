@@ -1,6 +1,6 @@
 # Conditional Expression
 
-There is no ternary operator (condition ? then : else) in Kotlin instead `if` expression could be used in the same way.
+There is no ternary operator (condition ? then : else) in Kotlin, instead an `if` expression can be used in the same way.
 Let's take a look
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3">
@@ -17,4 +17,4 @@ fun main() {
 
 </div>
 
-1. `if` is an expression, i.e. it returns a value.
+1. `if` is an expression, i.e., it returns a value.
