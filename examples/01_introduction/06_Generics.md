@@ -1,6 +1,6 @@
 # Generics
 
-[Generics](https://kotlinlang.org/docs/reference/generics.html) are one genericity mechanism that's become standard in modern languages. Generic classes and functions increase code reusability by encapsulating common logic that is independent of a particular generic type, like the logic inside a `List<T>` is independent of what `T` is.
+[Generics](https://kotlinlang.org/docs/reference/generics.html) is one genericity mechanism that's become standard in modern languages. Generic classes and functions increase code reusability by encapsulating the common logic that is independent of a particular generic type, like the logic inside a `List<T>` is independent of what `T` is.
 
 ### Generic classes
 
