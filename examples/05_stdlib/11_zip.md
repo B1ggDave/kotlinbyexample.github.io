@@ -1,6 +1,6 @@
 # zip
 
-Merge a collection with other collection into new collection. The returned collection contains either a `Pair` of elements from source collection with the same indexes or result of given transformation of elements with the same indexes. Let's take a look!
+Merge a collection with another collection to make a new collection. The returned collection contains either a `Pair` of elements from source collection with the same indexes or the result of a given transformation of elements with the same indexes. Let's take a look!
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3">
 
@@ -24,4 +24,4 @@ fun main() {
 
 1. Define two collections.
 2. Zip them into pairs using infix notation.
-3. Zip them concatinating together.
+3. Zip them concatinating them together.
