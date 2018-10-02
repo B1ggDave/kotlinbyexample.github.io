@@ -17,5 +17,5 @@ fun main() {
 
 </div>
 
-1. For non-empty collection functions return smallest and largest element.
-2. For empty collection both functions return `null`.
+1. For non-empty collection functions return the smallest and largest element.
+2. For an empty collection both functions return `null`.
