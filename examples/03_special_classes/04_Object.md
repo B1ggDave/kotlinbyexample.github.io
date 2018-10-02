@@ -26,24 +26,24 @@ fun main(){
 
 </div>
 
-1. blueprint definition
-2. method definition
-3. instance creation
-4. method calls 
+1. Blueprint definition
+2. Method definition
+3. Instance creation
+4. Method calls 
 
 Easy: we create two objects, both *instances* of LuckDispatcher class.
 
-In Kotlin you have also an **object** keyword. What is? is a *data type with a single implementation*.
+In Kotlin you also have an **object** keyword. What is it? It's a *data type with a single implementation*.
 
-If you are a Java user and want to understand what "*single*" means, you can think to Singleton pattern:
+If you are a Java user and want to understand what "*single*" means, you can think in terms of a Singleton pattern:
 it allows you to check that one (and only one) instance of that class will be created, even if 2 threads access it.
 
-To achieve that in Kotlin, you only need to declare an **object**: no class, no constructor, only a lazy instance.
-Why lazy? because it will be created one time, if object is used, otherwise, no.
+To achieve this in Kotlin, you only need to declare an **object**: no class, no constructor, only a lazy instance.
+Why lazy? because it will be created one time, if the object is used, otherwise, not.
 
-In this example, you see a typical basic usage of an **object expression**: a simple object/properties structure.
-No need of class declaration: create a single object, declare members and access it. 
-Object like that, is often used like anonymous class in Java.
+In this example, you see the typical basic usage of an **object expression**: a simple object/properties structure.
+No need for class declaration: create a single object, declare members, and access it. 
+An object like that, is often used like an anonymous class in Java.
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3">
 
@@ -71,13 +71,13 @@ fun main(){
 </div>
 
 1. Create a rentPrice function, w/ parameters (regular days, festivity days, special days)
-2. Create rates object, where you set vars values
-3. Access object's vars
+2. Create a rates object, where you set the vars values
+3. Access the object's vars
 4. Print total
 5. Access the instance (initialization), calling fun
 
 
-You can have also **object declaration**: is not an expression, and cannot be used in a variable assignment, must be used directly:
+You can also have **object declaration**: it is not an expression and cannot be used in a variable assignment, but it must be used directly:
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3">
 
@@ -97,15 +97,15 @@ fun main(){
 
 </div>
 
-1. create object declaration
-2. define method
-3. use the object (initialization), calling method
+1. Create an object declaration
+2. Define method
+3. Use the object (initialization), calling the method
 
 
 
 
-An object declaration, inside a class, defines another useful case: the **companion object**. 
-Syntactically similar to the static methods in Java, you call object's members using the *class* as qualifier.
+An object declaration inside a class defines another useful case: the **companion object**. 
+Syntactically similar to the static methods in Java, you call the object's members using the *class* as the qualifier.
 In Kotlin, before defining a companion object, decide whether it is better to write a simple *package-level* function.  
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3">
@@ -129,7 +129,7 @@ fun main(){
 
 </div>
 
-1. class definition, companion initialization
-2. companion definition - name can be omitted
-3. method definition
-4. accessing companion object
+1. Class definition, companion initialization
+2. Companion definition - name can be omitted
+3. Method definition
+4. Accessing companion object
