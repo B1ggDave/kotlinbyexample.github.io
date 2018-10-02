@@ -129,6 +129,6 @@ fun html(init: HTML.() -> Unit): HTML {
 
 2. `head` and `body` are member functions of `HTML`.
 
-3. Text us added to tags by calling `unaryPlus()` operation.
+3. Text is added to tags by calling `unaryPlus()` operation.
 
 For details see: [Type Safe Builders](http://kotlinlang.org/docs/reference/type-safe-builders.html)
