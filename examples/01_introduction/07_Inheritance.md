@@ -32,7 +32,7 @@ fun main() {
     the default constructor of the superclass.
 4. Overriding methods or attributes requires the `override` modifier.
 
-### Inheriting without default constructor
+### Inheriting without a default constructor
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3">
 
