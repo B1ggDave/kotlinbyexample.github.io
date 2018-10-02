@@ -1,10 +1,10 @@
 # any, all, none
 
-This extension functions answer the question about existence element(s) in collection based on given predicate.
+These extension functions answer the questions about the existence element(s) in collection based on given predicate.
 
 ### Function `any`
 
-Function `any` returns `true` if collection contains at least one element matching the given predicate.
+Function `any` returns `true` if the collection contains at least one element matching the given predicate.
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3">
 
@@ -34,7 +34,7 @@ fun main() {
 
 ### Function `all`
 
-Function `all` returns `true` iff all elements in collection matching the given predicate.
+Function `all` returns `true` if all the elements in the collection match the given predicate.
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3">
 
@@ -64,7 +64,7 @@ fun main() {
 
 ### Function `none`
 
-Function `none` return `true` iff there is no element in collection matching the given predicate.
+Function `none` returns `true` if there are no elements in the collection matching the given predicate.
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3">
 
@@ -87,7 +87,7 @@ fun main() {
 
 </div>
 
-1. Define collection of numbers.
-2. Whether there is no odd element which means all elements are even.
-3. If there is no element grater than 6.
+1. Define the collection of numbers.
+2. Whether there an odd element which means all elements are even.
+3. If there is no element greater than 6.
  
