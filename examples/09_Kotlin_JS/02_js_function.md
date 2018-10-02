@@ -1,7 +1,7 @@
 # JS function
 
 You can inline some JavaScript code into your Kotlin code using the `js("…")` function.
-Should be used with extreme care. 
+This should be used with extreme care. 
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3" data-target-platform="js">
 
