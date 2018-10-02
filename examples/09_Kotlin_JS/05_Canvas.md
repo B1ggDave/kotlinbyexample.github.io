@@ -1,8 +1,8 @@
 # Canvas (Hello Kotlin)
 
-The following example demonstrates usage of HTML5 Canvas from Kotlin.
+The following example demonstrates the use of the HTML5 Canvas from Kotlin.
 
-Here strange creatures are watching the kotlin logo. You can drag'n'drop them as well as the logo. Doubleclick to add more creatures but be careful. They may be watching you!
+Here strange creatures are watching the Kotlin logo. You can drag'n'drop them as well as the logo. Double-click to add more creatures but be careful. They may be watching you!
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3" data-target-platform="canvas" data-output-height="700">
 
