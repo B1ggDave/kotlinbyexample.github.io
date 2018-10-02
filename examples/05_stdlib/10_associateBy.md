@@ -1,9 +1,9 @@
 # associateBy, groupBy
 
-Both functions return a `Map` containing the elements from the given collection indexed by the key returned from `keySelector` function applied to each element.
+Both functions return a `Map` containing the elements from the given collection indexed by the key returned from the `keySelector` function applied to each element.
 If `valueSelector` is also passed it is applied to each element as well.
 
-The deference between `associateBy` and `groupBy` is the behaviour for values with the same key. `associateBy` takes only last element when `groupBy` takes all elements into collection. 
+The difference between `associateBy` and `groupBy` is the behavior of values with the same key. `associateBy` takes only last element while `groupBy` takes all elements into collection. 
 
 The returned map preserves the entry iteration order of the original collection.
 
@@ -37,8 +37,8 @@ fun main() {
 
 </div>
 
-1. Define data class descirbes a Person.
-2. Define collection of known people.
+1. Define a data class descirbes a Person.
+2. Define a collection of known people.
 3. Build a map from person's phone number to person information.
-4. Build another map from phone number to city where owner lives.
-5. Build the third map which contains cities and people living there.
+4. Build another map from the phone number to city where owner lives.
+5. Build a third map which contains cities and people living there.
