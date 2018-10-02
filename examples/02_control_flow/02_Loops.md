@@ -1,4 +1,4 @@
-#Loops
+# Loops
 
 ### for, while, do-while
 
@@ -46,10 +46,10 @@ fun main(args: Array<String>) {
 
 </div>
 
-While and do-while constructs work similarly to most languages.
+While and do-while constructs work in a similar way as most other languages.
 
 1. Performs the block while the condition is false
-2. Performs the block first, and then loops while evaluating the while condition.
+2. Performs the block first and then loops while evaluating the while condition.
 
 ### Iterators
 
