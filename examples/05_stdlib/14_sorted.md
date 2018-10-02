@@ -24,5 +24,5 @@ fun main() {
 </div>
 
 1. Define a collection of shuffled numbers.
-2. Sort it in their natural ascending order.
-2. Sort it in their natural descending order.
+2. Sort it in the natural ascending order.
+2. Sort it in the natural descending order.
