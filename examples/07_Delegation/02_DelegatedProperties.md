@@ -41,11 +41,11 @@ fun main() {
 1. Delegated property `p` of type `String`
 2. Delegation methods. For immutable property only `getValue` is required.
 
-### Stanard delegates 
+### Standard delegates 
 
 Kotlin standard library contains bunch of useful delegates, like `lazy`, `observable`, etc.
 
-For example `lazy` is used in case lazy initialization.
+For example `lazy` is used in case of lazy initialization.
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3">
 
@@ -74,7 +74,7 @@ fun main() {
  2. The first call to `get()` executes the lambda expression passed to lazy() as an argument and remembers the result
  3. Subsequent calls to `get()` simply return the remembered result.
 
-If you want thread safety, use blockingLazy() instead: it guarantees that the values will be computed only in one thread, and that all threads will see the same value.
+If you want thread safety, use blockingLazy() instead: it guarantees that the values will be computed only in one thread, and that all the threads will see the same value.
 
 ### Properties in map
 
@@ -103,4 +103,4 @@ fun main() {
 
 1. Delegates take values from the `map` (by the string keys - names of properties).
 
-Of course, you can have mutable property as well, that will modify the map upon assignment (note that you'd need `MutableMap` instead of read-only `Map`).
+Of course, you can have mutable property as well, that will modify the map upon assignment (note that you'd need a `MutableMap` instead of read-only `Map`).
