@@ -1,6 +1,6 @@
 # let
 
-**let** is a useful function defined in Kotlin Standard Library. It can be used for scoping and null-checks. 
+**let** is a useful function defined in the Kotlin Standard Library. It can be used for scoping and null-checks. 
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3">
 
@@ -37,4 +37,4 @@ fun main() {
 
 
 1. Result of `funWithSideEffect` is now accessible by reference `it`.
-2. Use safe call, so `let` and its code block will be executed only with non-null value.   
+2. Use safe call, so `let` and its code block will be executed only with a non-null value.   
