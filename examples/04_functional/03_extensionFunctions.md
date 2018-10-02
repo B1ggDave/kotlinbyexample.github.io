@@ -26,14 +26,14 @@ fun main() {
 
 </div>
 
-1. We define simple models of `Item` and `Order`. `Order` can contain arbitrary `Collection` of `Item` s
+1. We define simple models of `Item` and `Order`. `Order` can contain arbitrary `Collection` of `Item`s
 2. We define extension functions for `Order` type. Later we call these functions directly on the instance of that type. 
 3. We can also define extension properties.
 
 Read more about signature of [extensions](https://kotlinlang.org/docs/reference/extensions.html). Signature
-is very much like standard function or property signature, with addition that we need to specify type we're attaching function or property to.
+is very much like standard function or property signature, with the addition that we need to specify the type we're attaching a function or property to.
 
-It is even possible to execute extensions on `null` references. In their implementation we can check for `null` reference and based on that we can do any arbitrary logic. Example:
+It is even possible to execute extensions on `null` references. In their implementation we can check for `null` references and based on this we can do any arbitrary logic. Example:
    
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3">
 
