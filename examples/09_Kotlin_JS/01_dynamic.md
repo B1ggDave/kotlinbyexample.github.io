@@ -1,7 +1,7 @@
 # dynamic
 
 *dynamic* is a special type in Kotlin/JS. It basically turns off Kotlin's type checker.
-That is needed in order  to interoperate with untyped or loosely typed environments, such 
+This is needed in order  to interoperate with untyped or loosely typed environments, such 
 as the JavaScript ecosystem.
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3" data-target-platform="js">
