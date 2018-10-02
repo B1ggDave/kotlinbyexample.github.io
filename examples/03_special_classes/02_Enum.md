@@ -1,8 +1,8 @@
 # Enum Classes
 
-Enum classes are used to model types that represent a finite set of distinct values, such as directions, states, modes and so forth.
+Enum classes are used to model types that represent a finite set of distinct values, such as directions, states, and modes for example.
 
-They may contain properties and methods like other classes, separated from the enum instances by a semicolon.
+They may contain properties and methods like other classes, separated from enum instances by a semicolon.
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3">
 
@@ -45,4 +45,4 @@ fun main() {
 4. Members are separated from the instance definitions with a semicolon.
 5. Enum instances are accessed directly via the class name.
 6. The default `toString` returns the name of the instance, here `"RED"`.
-7. With enums, the compiler can infer if a `when`-expression is exhaustive so that you don't need an `else`-case.
+7. With enums, the compiler can infer if a `when`-expression is exhaustive so that it doesn't need an `else`-case.
