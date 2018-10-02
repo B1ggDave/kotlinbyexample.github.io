@@ -1,7 +1,7 @@
 # getOrElse
 
-Provides safe access to elements of collection. It takes index and a function that computes default value 
-in cases when index is out of bound.
+Provides safe access to elements of the collection. It takes an index and a function that computes the default value 
+in any cases where the index is out of bounds.
 
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3">
@@ -19,8 +19,8 @@ fun main() {
 
 </div>
 
-1. Prints element at index `1`
-2. Prints `42` because index `10` is out of bounds 
+1. Prints an element at index `1`
+2. Prints `42` because the index `10` is out of bounds 
 
 `getOrElse` can also be applied to `Map` to get value for given key. 
 
@@ -45,5 +45,5 @@ fun main() {
 </div>
 
 
-1. Prints default value because value for key `"x"` is absent
+1. Prints the default value because the value for key `"x"` is absent
 2. Prints `3`, value for key `"x"`
